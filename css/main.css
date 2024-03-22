@@ -1,0 +1,875 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans:wght@300;400&family=Dancing+Script&family=Noto+Serif+Ahom&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+
+.header{
+    background-image: url(../img/drew-coffman-1872.jpg);
+    height: 900px;
+    background-size:cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+/*@media screen and (min-width:768){/*ipad
+
+    .navbar{
+        width:5%;
+    }
+
+
+@media screen and (min-width:360){
+
+.navbar{
+background-color: red;
+width: 500px;
+}
+} */
+
+.navbar{
+    width: 80%;
+    position: fixed;
+    top: 0;
+    margin-left: 18%;
+}
+/*@media screen and  (max-width:768px) {
+    .logo{
+        width: 100px;
+        font-size: 5px;
+    }}*/
+
+
+.logo{
+    width: 45%;
+    float: left;
+   
+}
+.logo a img{
+    color: #8e7754;
+}
+
+.link{
+    margin-right: 15px;
+    text-transform: capitalize;
+    font-family:"Alegreya";
+    font-size: 18px;
+    
+}
+.link li a{
+    color: #595959;
+    float:right;
+    margin-top: 20px;
+    font-family: Alegreya;
+    Font-size: 18px;
+    Font-weight: 400;
+    Line-height: 31.62px;
+     color: rgb(224, 198, 144);
+
+}
+.link li a.home{
+    font-family: Alegreya;
+    Font-size: 18px;
+    Font-weight: 400;
+    Line-height: 31.62px;
+     color: rgb(224, 220, 210);
+}
+.link ul{
+    float: left;
+    list-style-type: none;
+    margin-right: 2%;
+}
+ul,a{
+    text-decoration: none;
+    list-style-type: none;
+}
+.header a{
+    text-decoration: none;
+     color:#ffffffff;
+}
+.logo img{
+    width: 200px;
+margin-top: 15px;
+}
+.header-content{
+text-align: center;
+margin: 20%;
+width: 900px;
+}
+
+.header-content p {
+    font-family: "Alegreya Sans";
+    Font-size: 24px;
+    Font-weight: 400;
+     Line-height: 44.64px;
+     color: rgba(255, 255, 255, 0.92);
+     margin-top: 15px;
+     width: 90%
+}
+.header-content .hello{
+ margin-bottom: 15px;
+ Font-weight: "Alegreya Sans";
+ width: 850px;
+Font-size: 22px;
+Font-weight: 400;
+Line-height: 40.92px;
+ color: rgba(255, 255, 255, 0.92);
+
+}
+.header-content h1{
+    font-family: Alegreya;
+    Font-size: 76px;
+    Font-weight: 400;
+    Line-height: 91.2px;
+     color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    
+}
+.header-content a{
+    margin-top: 15px;
+    padding: 20px 30px;
+    border-radius: 7px;
+
+}
+.header-content .learn{
+background-color: #8e7754;
+margin-right: 5px;
+font-weight: 700;
+
+}
+.header-content .contact{
+margin-left: 5px;
+border-color:white ;
+border-style: solid;
+color: white ;
+font-weight: 700
+}
+
+.desc{
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+/*************about************/
+/*@media screen and (min-width:360px){
+   
+    .about{
+        width: 100%;
+    }
+}   */ 
+.about{
+    height: 100vh;
+    padding: 50px;
+}
+.about .container{
+    width: 100%;
+    margin: auto;
+}
+
+.about-img{
+width: 40%;
+float: left;
+}
+.about-img img{
+    max-width: 100%;
+    margin-top: 35px;
+    margin-left: 10%;
+}
+.about-txt{
+float: left;
+width: 50%;
+margin-left: 10%;
+margin-top : 7%;
+margin-bottom: 20%;
+}
+.about-txt h2{
+    margin-bottom: 30px;
+    font-family: 'Alegreya';
+font-size: 32px;
+Font-weight: 400;
+Line-height: 44.16px;
+ color: rgb(48, 48, 48);
+}
+.about-txt ul li i{
+    background-color:  #ffffff;
+    color: #8e7754;
+    padding: 5px;
+    border-radius: 50% solid;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.about-txt span{
+     font-weight: "Alegreya Sans";
+
+Font-size: 17px;
+
+Font-weight: 400;
+
+Line-height: 31.62px;
+
+ color: rgb(104, 104, 104);
+
+
+}
+.about-txt p{
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    Font-weight: 400;
+    
+    Line-height: 31.62px;
+    
+     color: rgb(104, 104, 104)
+    
+    }
+/***************location***********/
+
+.location{
+    background-color: #f8f8f8;
+    height: 100vh;
+    padding: 50px;
+}
+
+.location-txt{
+ float: left;
+  width:46.5%;
+  padding-top: 45px;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.location h2{
+font-family: 'Alegreya', serif;
+Font-size: 32px;
+Font-weight: 400;
+Line-height: 44.16px;
+
+color: rgb(48, 48, 48);
+margin-bottom: 25px;
+}
+.location p{
+ font-family: "Alegreya Sans";
+Font-size: 17px;
+Font-weight: 400;
+Line-height: 31.62px;
+ color: rgb(104, 104, 104);
+}
+.location .container{
+    width: 100%;
+}
+.location-img{
+    float: left;
+    width:40%;
+}
+.location-img img{
+    width: 100%;
+    margin-top: 35px;
+    margin-left: 20%;
+}
+.txt{
+    margin-bottom: 20px;
+}
+/**********backing*************/
+
+.backing{
+ padding: 50px;
+text-align: center;
+font-family: Alegreya;   
+Font-size: 30px;
+Font-weight: 400;
+line-height: 41.4px;
+margin-left: 10%;
+ color: rgb(48, 48, 48);
+ height: 90vh;
+}
+.backing h3{
+font-family: Alegreya;
+Font-size: 30px;
+Font-weight: 400;
+Line-height: 41.4px;
+ color: rgb(48, 48, 48);
+    margin-bottom: 22px;
+    margin-top:25px;
+    text-align: center;
+}
+.backing p{
+    font-family: "Alegreya Sans";
+
+Font-size: 17px;
+
+Font-weight: 400;
+
+Line-height: 31.62px;
+
+color: rgb(136, 136, 136);
+margin-bottom: 30px;
+}
+.item{
+float: left;
+    width:30%;
+padding:20px;
+box-sizing: border-box;
+}
+.item img{
+    width: 100%;
+}
+.item h4{
+    font-family: 'Alegreya';
+
+Font-size: 22px;
+
+Font-weight: 400;
+
+Line-height: 30.36px;
+
+ color: rgb(48, 48, 48);
+}
+.backing .container{
+    width:100%;
+    margin: auto;
+}
+
+/*************************info*********************/
+.info{
+    padding: 50px;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+.info .container{
+    width: 100%;
+
+}
+
+.info h2{
+font-family: Alegreya;
+font-size: 32px;
+Font-weight: 400;
+Line-height: 44.16px;
+ color: rgb(48, 48, 48);
+ margin-bottom: 30px;
+}
+.info p{
+font-family: "Alegreya Sans";
+Font-size: 17px;
+Font-weight: 400;
+line-height: 31.62px;
+ color: rgb(104, 104, 104);
+ width: 60%;
+}
+.info ul li i{
+    background-color:  #8e7754;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 50% ;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.cont-det{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.map{
+    float: right;
+   width:47%;
+   margin-top:2%;
+   margin-left:5%;
+}
+
+/*****************detailes*****************/
+.detailes{
+    padding: 50px;
+    height: 70vh;
+    background-color: #403d38;
+
+}
+.container{
+    width: 100%;
+}
+
+.ss{
+    margin-top: 25px;
+}
+
+hr{
+    opacity: 0.2;
+    width: 75%;
+}
+.detailes h4{
+font-weight: Alegreya;
+Font-size: 18px;
+Font-weight: 400;
+Line-height: 24.84px;
+color: rgb(255, 255, 255);
+margin-bottom: 25px;
+}
+.detailes li{
+    padding: 10px;
+}
+.list-houers{
+    margin-top: 15px;
+}
+.detailes p,ul,a{
+font-family: "Alegreya Sans";
+Font-size: 16px;
+Font-weight: 400;
+Line-height: 29.76px;
+ color: rgb(150, 150, 150);
+}
+.cont-item ul li i{
+    color: #969696; ;
+    padding: 5px;
+    border-radius: 50% solid;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.cont-item{
+    width: 25%;
+    float: left;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+.cont-item p{
+width: 90%;
+}
+/***********end************/
+.end{
+    background-color: #151515;
+    height: 44vh;
+    padding: 50px;
+}
+.img-end{
+    text-align: center;
+    padding-top: 40px;
+}
+.copyright{
+font-family: "Alegreya Sans";
+Font-size: 15px;
+Font-weight: 400;
+Line-height: 27.9px;
+ color: rgb(119, 119, 119);
+ margin-top: 30px;
+ margin-bottom: 30px;
+}
+.icon a{
+    background-color:  #484540;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 50% ;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.pos{
+    background-color: white;
+    margin:auto;
+    text-align: center;
+    position: fixed;
+    top:50%;
+    right: 0px;
+    width: 45px;
+    height: 90px; 
+    border-top-left-radius: 8%;
+    border-bottom-left-radius: 8%;  
+    
+    }
+    .pos ul li i {
+        padding:10px 0 ;
+        font-size:20px;
+        color:#686868;
+    }
+    #icon:hover{
+        color: rgb(110, 110, 242);
+    }
+    /***************media qyery*********************/
+
+    @media screen and (min-width:700px) and (max-width:1280px){
+        .item{
+            float: none;
+            width:100%;
+        }
+        .item h4{
+            font-size: 30px;
+            line-height: 40px;   
+        }
+        .item p{
+            font-size: 25px;
+            line-height: 40px;
+        }
+        .baking p{
+            font-size: 25px;
+            line-height: 40px;
+        }
+        .baking h3{
+            font-size: 40px;
+            line-height: 40px;
+        }
+        .baking .container{
+            width:100%;
+        }
+    }
+    @media screen and (min-width:700px) and (max-width:1280px){
+.header{
+    width: 100%;
+}
+.header-content{
+    text-align: center;
+    margin: auto;
+    padding-top: 25%;
+    width: 100%;
+}
+.header-content .hello{
+    width: 550px;
+}
+.header-content p{
+    width: 550px;
+    margin-left: 16%;
+}
+.logo{
+    width: 95%;
+    margin-left: 25%;
+}
+.link li a{
+float: left;
+padding: 10px;
+width: 100%;
+}
+    }
+
+    @media screen and (min-width:700px) and (max-width:1280px){
+           .about-img{
+            float: none;
+            width:50%;
+        }
+        .about-txt p{
+            font-size: 25px;
+            line-height: 40px;
+        }
+        .about-txt span{
+            font-size: 25px;
+            line-height: 40px;
+            width: 100%;
+            margin-bottom: 90px;
+            padding-bottom:2px;
+        }
+        .about-txt{
+            float: none;
+            width:100%;   
+        }
+        .about .container{
+            width:90%;
+            margin: auto;
+        }
+    }
+
+    @media screen and (min-width:700px) and (max-width:1280px){
+      
+        .location-txt{
+            float: none;
+            width:100%;   
+        }
+        .txt p{
+            font-size: 30px;
+            line-height: 40px;
+        } 
+        .location-img{
+            float: none;
+            width:90%; 
+            padding-left: 6%;
+        }
+        
+        .location .container{
+            width:80%;
+            
+        }
+    }
+    @media screen and (min-width:700px) and (max-width:1280px){
+        
+        .backing {
+            width: 100%;
+            height: 2700px;
+            margin-left: 50px;
+        }
+         .backing h3{
+        float: left;
+        width: 100%;
+        margin-bottom: 30px;  
+    }
+    
+    .item .container{
+        width: 80%;
+    }
+    .item img{
+        height: 500px;
+        width: 400px;
+    }
+    .item p,h4
+    {float: none;
+        width: 90%;
+    }
+
+    .details{
+        float: left;
+        width: 50%;
+        
+        margin-bottom: 30px;
+    
+    
+    }
+    .open{
+        float: left;
+        width: 50%;
+       
+        margin-bottom: 30px;
+    
+    
+    }
+    }
+    @media screen and (min-width:700px) and (max-width:1280px){
+   
+   .info{
+    width:100%;
+    height: 1000px;
+
+   }
+   .txt-info{
+    width: 100%;
+   }
+   .info ul{
+    width: 100%;
+    float: none;
+   }
+   .map{
+    width: 100%;
+    float: none;
+   }
+   .info span{
+    font-size: 25px;
+    line-height: 40px;
+    width: 100%;
+    margin-bottom: 90px;
+    padding-bottom:2px;
+}
+.detailes{
+    height: 1000px;
+    width: 100%;
+}
+.detailes .container{
+    width: 100%;
+}}
+
+
+/**********************phoneeeeeeee************************************/
+
+
+@media screen and (min-width:300px) and (max-width:930px){
+    .logo{
+        float: none;
+        width:100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .logo img{
+        width:70%;
+        padding-right: 7%;
+    }
+    .link{
+        width:346px;
+        
+    }
+    
+    .header-content{
+        width:280px;
+        margin-top: 40%;
+        text-align: center;
+        padding-left:10px;
+    }
+    .header-content p{
+        width:100%;
+        text-align: center;
+    }
+    
+    .header{
+        width:100%;
+        height: 1000px;
+        background-size: 1000px;
+    }
+    .learn {
+        float: none;
+    }
+    .contact{
+        float: none;
+    }
+    .header .container{
+        width:100%;
+        text-align: center;
+    }
+    
+    
+    
+    
+    
+    
+    }
+    @media screen and (min-width:300px) and (max-width:930px){
+        .item{
+            float: none;
+            width:100%;
+        }
+        .item h4{
+            font-size: 30px;
+            line-height: 40px;   
+        }
+        .item p{
+            font-size: 25px;
+            line-height: 40px;
+        }
+        .backing p{
+            font-size: 25px;
+            line-height: 40px;
+        }
+        .backing h3{
+            font-size: 40px;
+            line-height: 40px;
+        }
+        .backing .container{
+            width:100%;
+        }
+        .backing{
+            height: 2500px;
+        }
+    }
+    @media screen and (min-width:300px) and (max-width:930px){
+        .about{
+            height: 1500px;
+        }
+        .about-img{
+            float: none;
+            width:100%;
+        }
+        .about-txt p{
+            font-size: 15px;
+            line-height: 40px;
+            width:250px;
+        }
+        .about-txt span{
+            font-size: 15px;
+            line-height: 40px;
+        }
+        .about-txt{
+            float: none;
+            width:100%;  
+        }
+        .about .container{
+            width:100%;
+        }
+    }
+    @media screen and (min-width:300px) and (max-width:930px){
+      
+       
+        .location-txt p,h2{
+            font-size: 15px;
+            line-height: 40px;
+            width:300px;
+        }
+        
+        .location-img{
+            float: none;
+           width: 400px;
+              text-align: center;
+        }
+        
+        .location .container{
+            width:90%;
+            
+        }
+        .location{
+            height: 1200px;
+            width: 100%;
+        }
+    }
+    @media screen and (min-width:300px) and (max-width:930px){
+        
+        .detailes {
+            width: 100%;
+            height:1700px;
+        }
+         .special{
+            float: none;
+        width: 50%;
+        margin-bottom: 30px;
+        
+    
+    
+    }
+    
+    .detailes .container{
+        width: 80%;
+    }
+    .ab{float: none;
+        width: 100%;
+        margin-bottom: 30px;
+     
+    
+    
+    }
+    .details{
+        float: none;
+        width: 100%;
+        
+        margin-bottom: 30px;
+    
+    
+    }
+    .cont-item{
+        float: none;
+        width: 100%;
+       
+        margin-bottom: 30px;
+    
+    
+    }
+    }
+    @media screen and (min-width:300px) and (max-width:930px){
+    .info{
+        width: 100%;
+        height: 1300px;
+    }
+    .contact{
+        float: none;
+        width:100%;
+       padding-top: 20% ; 
+    }
+    .contact h2{
+        font-size: 40px;
+        line-height: 40px; 
+        
+    }
+    .contact span{
+        font-size: 25px;
+            line-height: 40px;
+    }
+    .contact p{
+        font-size: 25px;
+            line-height: 40px;
+    }
+    .map{float: none;
+        width:100%;}
+     .map iframe{
+           max-width:80%;
+        }
+    }
+    
+    
+    
+    
